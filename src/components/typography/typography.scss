@@ -1,41 +1,40 @@
 @use '../../global/colors';
 
-.tittle-h1 {
-        
+.title-h1 {
     font-size: 48px;
     font-weight: 600;
     letter-spacing: -1.6px;
     line-height: normal;
 }
 
-.tittle-h2 {
+.title-h2 {
     font-size: 32px;
     font-weight: 600;
     letter-spacing: -0.2px;
     line-height: normal;
 }
 
-.tittle-h3 {
+.title-h3 {
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
     letter-spacing: -0.2px;
 }
 
-.tittle-h4 {
+.title-h4 {
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
     letter-spacing: -0.2px;
 }
 
-.tittle-h5 {
+.title-h5 {
     font-size: 18px;
     font-weight: 600;
     line-height: normal;
 }
 
-.tittle-h6 {
+.title-h6 {
     font-size: 16px;
     font-weight: 600;
     line-height: normal;
@@ -55,9 +54,9 @@
 }
 
 .text-base {
-font-size: 16px;
-font-weight: 400;
-line-height: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .text-normal {
@@ -68,6 +67,12 @@ line-height: normal;
 }
 
 .text-muted {
- color: colors.$gray500;
+    color: colors.$gray500;
 }
 
+.text-title {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}
